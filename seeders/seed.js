@@ -1,10 +1,11 @@
 let mongoose = require("mongoose");
-let db = require("../models/workout");
-// let Workout = require('models/workout');
+let Workout = require('../models/workout');
 
 mongoose.connect("mongodb://localhost/workout", {
   useNewUrlParser: true,
-  useFindAndModify: false // add two more deprecates? (via server.js)
+  useFindAndModify: false,
+  useCreateIndex: true,
+  useUnifiedTopology: true
 });
 
 let workoutSeed = [
@@ -136,8 +137,8 @@ let workoutSeed = [
   }
 ];
 
-db.Workout.deleteMany({}) // remove 'db', maybe the whole deleteMany function
-  .then(() => db.Workout.collection.insertMany(workoutSeed)) // try removing 'collection'
+Workout.deleteMany({})
+  .then(() => Workout.collection.insertMany(workoutSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
