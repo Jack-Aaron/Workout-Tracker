@@ -2,6 +2,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+const path = require('path');
 
 // sets up port for Heroku otherwise localhost 8080
 const PORT = process.env.PORT || 8080;
@@ -31,7 +32,19 @@ mongoose.connect(MONGODB_URI, {
 });
 
 // Routes
-require('./routes/api');
+const api = require('./routes/api');
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
+
+app.get('/exercise', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'exercise.html'))
+})
+
+app.get('/stats', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'stats.html'))
+})
 
 // connect to PORT
 app.listen(PORT, () => {
