@@ -31,8 +31,8 @@ mongoose.connect(MONGODB_URI, {
     useUnifiedTopology: true
 });
 
-// Routes
-const api = require('./routes/api');
+// routes
+app.use(require("./routes/api.js"));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'))
