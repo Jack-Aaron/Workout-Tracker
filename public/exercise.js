@@ -119,6 +119,15 @@ async function handleFormSubmit(event) {
   toast.classList.add("success");
 }
 
+async function completeFormSubmit(event) {
+  event.preventDefault();
+  console.log('complete!');
+  await API.getLastWorkout();
+  if (shouldNavigateAway) {
+    location.href = "/";
+  }
+}
+
 function handleToastAnimationEnd() {
   toast.removeAttribute("class");
   if (shouldNavigateAway) {
@@ -143,7 +152,8 @@ if (workoutTypeSelect) {
 if (completeButton) {
   completeButton.addEventListener("click", function (event) {
     shouldNavigateAway = true;
-    handleFormSubmit(event);
+    console.log('about to complete!');
+    completeFormSubmit(event);
   });
 }
 if (addButton) {
