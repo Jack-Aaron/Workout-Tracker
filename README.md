@@ -21,6 +21,8 @@ This application required the creation of a Mongo database using [mlab](https://
 
 The front end code was provided. I slightly modified some of the buttons' position on the page, as can be seen in the [commit history](https://github.com/Jack-Aaron/Workout-Tracker/commit/ad0c12e1f4c47324af68c3635476e63a58af0703/).
 
+The interactive graphs are made possible by [Chart.js](https://www.npmjs.com/package/chart.js?activeTab=readme/).
+
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install the following dependencies needed for Workout-Tracker.
