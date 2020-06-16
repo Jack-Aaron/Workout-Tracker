@@ -3,6 +3,8 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 As a user, you want to be able to view create and track daily workouts. You want to be able to log multiple exercises in a workout on a given day. You should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, you should be able to track my distance traveled.
 
+### Live Demo: https://stormy-gorge-38643.herokuapp.com/
+
 ## Usage
 
 * Add exercises to a previous workout plan.
