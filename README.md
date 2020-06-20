@@ -7,7 +7,7 @@ As a user, you want to be able to view create and track daily workouts. You want
 
 ![Last Workout](public/img/scsh1.jpg?raw=true "Last Workout")
 ![Add Exercise](public/img/scsh2.jpg?raw=true "Add Exercise")
-![Dashboard](public/img/scsh3.jpg?raw=true "Workout Charts")
+![Chart Demo](demo.gif?raw=true "Chart Demo")
 
 ### Technologies Used:
 * HTML/CSS
