@@ -60,4 +60,4 @@ npm path
 
 ### Meet The Team
 
-* [Jonathan Alpart](https://github.com/Jack-Aaron/) Back end
+* [Jonathan Alpart](https://github.com/Jack-Aaron/): Back-end
