@@ -5,11 +5,9 @@ A consumer will reach their fitness goals quicker when they track their workout 
 
 As a user, you want to be able to view create and track daily workouts. You want to be able to log multiple exercises in a workout on a given day. You should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, you should be able to track your distance traveled.
 
-### Screenshots
-<img src="public/img/scsh2.jpg?raw=true" alt="Add Exercise screenshot" width="400"> <img src="public/img/scsh1.jpg?raw=true" alt="Last Workout screenshot" width="400"> 
-
-### Animated Demo
-![Chart Demo](demo.gif?raw=true "Chart Demo")
+### Animated Demos
+![Create Workouts Demo](demo2.gif?raw=true "Chart Demo")
+![Chart Demo](demo1.gif?raw=true "Chart Demo")
 
 ### Technologies Used:
 * HTML/CSS
