@@ -40,27 +40,3 @@ As a user, you want to be able to view create and track daily workouts. You want
 ### Details
 
 The front end code was provided. I slightly modified some of the buttons' position on the page, as can be seen in the [commit history](https://github.com/Jack-Aaron/Workout-Tracker/commit/ad0c12e1f4c47324af68c3635476e63a58af0703/).
-
-### Installation
-
-Use the package manager [npm](https://www.npmjs.com/) to install the following dependencies needed for Workout-Tracker.
-
-```bash
-npm express
-```
-
-```bash
-npm mongoose
-```
-
-```bash
-npm morgan
-```
-
-```bash
-npm path
-```
-
-### Meet The Team
-
-* [Jonathan Alpart](https://github.com/Jack-Aaron/): Back-end
